@@ -104,7 +104,7 @@ $cardEnter.addEventListener("keyup", function(e) {
     console.log(typeof Number(cardnum))
     
     if (cardnum.length === 0) {
-        $cardNumber.textContent = "0000"
+        $cardNumber.textContent = "0000 0000 0000 0000 "
     } else if (isNaN(Number(cardnum))) {
         console.log("Ne fais rien")
     } else { 
